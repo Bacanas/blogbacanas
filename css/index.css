@@ -60,6 +60,12 @@ li{
 
 }
 
+li:hover{
+
+    border-bottom: solid 0.1rem #FF3131;
+
+}
+
 a{
 
     text-decoration: none;
@@ -194,6 +200,14 @@ aside:hover{
 
 }
 
+#projetos-row{
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+}
+
 .nome-projeto{
 
     font-size: 2rem;
@@ -212,5 +226,39 @@ aside:hover{
 
     height: 20rem;
     width: 35rem;
+
+}
+
+#redes-secao{
+
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+
+}
+
+#social{
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+}
+
+.redes-sociais{
+
+    border: solid #FF3131 0.1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.logo-social{
+
+    height: 7rem;
+    width: 7rem;
 
 }
